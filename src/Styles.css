@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     font-size: 20px;
 }
 header {
@@ -17,6 +17,11 @@ header {
     justify-content: flex-end;
     padding: 12px;
     margin-top: 15px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+
 }
 .share-button {
     width: 50px;
@@ -64,36 +69,39 @@ a {
     color: rgb(240,240,240);
 }
 .tile {
-    width: 100%;
+    width: 80%;
     background-color: rgb(37,37,37);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     margin: 7px;
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
+
 }
 .tile:hover {
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
     transform: scale(1.02);
 }
 .tile-share-button {
-     margin: 8px, 10px;
-     height: 30px;
-     border-radius: 20px;
-     background-color: rgb(37,37,37);
- }
-.tile-share-button svg {
-    margin: 8px,10px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    width: 44px;
+    margin: 8px 10px;
     height: 30px;
+    border-radius: 20px;
+    background-color: rgb(37,37,37);
+}
+.tile-share-button svg {
+    margin: 8px 10px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 44px;
+    height: 20px;
 }
 .icon {
-    margin: 8px,10px;
+    margin: 8px 10px;
     padding-left: 25px;
     padding-top: 15px;
     padding-bottom: 10px;
     width: 44px;
-    height: 30px;
+    height: 20px;
 }
